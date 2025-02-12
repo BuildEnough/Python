@@ -28,7 +28,7 @@ pip install selenium
 
 ### 2-3. 크롬 드라이버 다운로드
 - 윈도우: c:/chromedriver.exe
-- 맥: /Users/(폴더)/Documents/chromedriver
+- 맥: /Users/Documents/chromedriver
 
 #### 1) 크롬 버전 확인
 #### 2) 크롬 드라이버 다운로드
