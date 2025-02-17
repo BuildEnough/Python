@@ -33,3 +33,7 @@ pip install selenium
 #### 1) 크롬 버전 확인
 #### 2) 크롬 드라이버 다운로드
 - 구글 검색 ㄱ
+
+#### 3) send_keys 우회방법 -> pyautogui
+- 'send_keys'는 자동입력 탐지기가 자바스트립트를 감지하기 때문에,
+- pyautogui의 붙여넣기 기능을 활용하면 네이버에 로그인 할 수 있다.
