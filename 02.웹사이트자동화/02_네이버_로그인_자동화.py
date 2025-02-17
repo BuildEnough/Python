@@ -1,6 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+import pyperclip
+import pyautogui
 
 # 크롬 드라이버 실행
 driver = webdriver.Chrome()
@@ -9,12 +11,18 @@ driver.maximize_window() #화면 최대화
 
 # 아이디 입력창
 id = driver.find_element(By.CSS_SELECTOR, "#id")
-id.send_keys("네이버아이디") # 네이버 아이디 입력
+id.click()
+pyperclip.copy('네이버아디이')
+pyautogui.hotkey("ctrl", "v")
+## id.send_keys("네이버아이디") # 네이버 아이디 입력
 time.sleep(2)
 
 # 비밀번호 입력창
-id = driver.find_element(By.CSS_SELECTOR, "#pw")
-id.send_keys("네이버비밀번호") # 네이버 비밀번호 입력
+pw = driver.find_element(By.CSS_SELECTOR, "#pw")
+pw.click()
+pyperclip.copy('네이버비밀번호')
+pyautogui.hotkey("ctrl", "v")
+## id.send_keys("네이버비밀번호") # 네이버 비밀번호 입력
 time.sleep(2)
 
 # 로그인 버튼
