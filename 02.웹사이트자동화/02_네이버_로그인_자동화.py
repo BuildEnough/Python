@@ -22,7 +22,7 @@ pw = driver.find_element(By.CSS_SELECTOR, "#pw")
 pw.click()
 pyperclip.copy('네이버비밀번호')
 pyautogui.hotkey("ctrl", "v")
-## id.send_keys("네이버비밀번호") # 네이버 비밀번호 입력
+## pw.send_keys("네이버비밀번호") # 네이버 비밀번호 입력
 time.sleep(2)
 
 # 로그인 버튼
