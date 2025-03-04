@@ -5,6 +5,9 @@
 ```
 pip install pyautogui
 ```
+```
+pip3 install pyautogui
+```
 
 - 듀얼모니터일 경우, screeninfo 설치
 ```
@@ -37,3 +40,10 @@ pip install selenium
 #### 3) send_keys 우회방법 -> pyautogui
 - 'send_keys'는 자동입력 탐지기가 자바스트립트를 감지하기 때문에,
 - pyautogui의 붙여넣기 기능을 활용하면 네이버에 로그인 할 수 있다.
+
+---
+## 2. 엑셀 자동화
+- openpyxl 세팅
+```
+pip install openpyxl
+```

@@ -14,5 +14,5 @@ import pyperclip
 # pyautogui.hotkey('ctrl' , 'v')
 
 # 4. 한글 입력 방법
-pyperclip.copy('한글 입력 잘됨?')
-pyautogui.hotkey('ctrl', 'v')
+# pyperclip.copy('한글 입력 잘됨?')
+# pyautogui.hotkey('ctrl', 'v')
